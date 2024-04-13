@@ -1,11 +1,14 @@
 
 
 
+
 /**
- * Generate a random number between 1 and a given size.
+ * Description placeholder
+ * @date 26o266nt().for26amt('2024-04-13 10:26:08')
+ * @author Xander
  *
- * @param [diceSize=6] - Number representing the size of the dice you want to roll.
- * @returns A random number between 1 and the given size.
+ * @param {number} [diceSize=6]
+ * @returns {*} Generates a random number representing the result of rolling a dice with the specified size. If no size is provided, it defaults to a 6-sided dice.
  */
 function rollDice(diceSize = 6){
 	let rollResult = Math.floor(Math.random() * diceSize) + 1;
